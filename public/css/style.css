@@ -1,0 +1,28 @@
+/* Colors*/
+.color1 {
+    color: #541902;
+  }
+  .color2 {
+    color: #803608;
+  }
+  .color3 {
+    color: #b75f11;
+  }
+  .color4 {
+    color: #fc991d;
+  }
+  .color5 {
+    color: #ffe12f;
+  }
+
+gradient-custom {
+    /* fallback for old browsers */
+    background: #fc991d;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #fc991d, #ffe12f);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #fc991d, #ffe12f)
+  }
+
